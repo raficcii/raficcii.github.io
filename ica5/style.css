@@ -8,10 +8,11 @@ html {
 
 body {
   margin: 0;
-  background: #ccc;
+  background: linear gradient(#808080, #FFF);
   background-image: url("top-image.png"), url("bottom-image.png");
   background-position: center top, center bottom;
   background-repeat: no-repeat, no-repeat;
+  background-size: contain;
 }
 
 article {
@@ -40,8 +41,7 @@ h1 {
   color: white;
   text-shadow: 1px 1px 1px black;
   background-image: url("logo.png");
-  text-shadow: 4px 4px black;
-
+  filter: drop-shadow(4px 4px 4px #000000)
 }
 
 /* Your CSS below here */
