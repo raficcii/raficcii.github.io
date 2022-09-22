@@ -25,3 +25,15 @@ hr.orange {
 hr.blue {
     border-top: 4px #86B3B3;
 }
+
+#albums, #songs{
+    color: black;
+}
+
+ul{
+    color: #86B3B3;
+}
+
+ol{
+    color:#86B3B3;
+}
