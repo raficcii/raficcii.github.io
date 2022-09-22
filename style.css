@@ -1,0 +1,27 @@
+* {
+    font-family: 'Helvetica', sans-serif;
+}
+
+p{
+    font-weight: lighter;
+    color: #FC853F;
+}
+
+a:link{
+    font-weight:light;
+    color: #FC853F
+}
+
+a:visited{
+    color: #86B3B3;
+}
+a:hover{
+    color: black;
+}
+hr.orange {
+    border-top: 4px #FC853F;
+}
+
+hr.blue {
+    border-top: 4px #86B3B3;
+}
