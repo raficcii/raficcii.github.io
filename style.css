@@ -1,10 +1,15 @@
 @media screen and (min-width:400px){
     * {
         font-family: 'Helvetica', sans-serif;
-        
+        font-size: 30px;
     }
 }
-
+@media screen and (min-height:700px){
+    * {
+        font-family: 'Helvetica', sans-serif;
+        font-size: 30px;
+    }
+}
 p{
     font-weight: lighter;
     color: #FC853F;
