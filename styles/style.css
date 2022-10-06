@@ -47,10 +47,6 @@ li a{
     width: 90%;
 }
 
-a:link{
-    font-weight:light;
-    color: #FC853F
-}
 
 a:hover{
     color: #86B3B3;
