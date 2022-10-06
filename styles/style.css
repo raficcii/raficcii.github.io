@@ -1,0 +1,76 @@
+@media screen and (min-width:400px){
+    * {
+        font-size: 30px;
+    }
+}
+@media screen and (min-height:700px){
+    * {
+        font-size: 30px;
+    }
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0px;
+}
+p{
+    color:#3e7070;
+    font-weight: light;
+}
+nav{
+    background-color: black;
+    padding: 0em;
+    margin: 0;
+    position: sticky;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display:flex;
+}
+
+li{
+    float: left;
+}
+
+h1{
+    margin: 2em;
+    font-size: larger;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    width: 90%;
+}
+
+a:link{
+    font-weight:light;
+    color: #FC853F
+}
+
+a:hover{
+    color: #86B3B3;
+}
+
+.column{
+    flex: 33.33%;
+    padding: 5px;
+    margin-left:2em;
+    margin-right: 2em;
+}
+
+.row{
+    margin-left: 2em;
+    margin-right: 2em;
+    display: flex;
+    flex-wrap:wrap;
+    padding: 0 4px;
+}
+
+#home{
+    font-family: Snell Roundhand, cursive;
+}
