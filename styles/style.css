@@ -70,3 +70,7 @@ a:hover{
 #home{
     font-family: Snell Roundhand, cursive;
 }
+button{
+    margin: 2em;
+    text-align: center;
+}
