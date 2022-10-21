@@ -33,6 +33,9 @@ button {
   top: 2px;
   left: 2px;
 }
+button:hover{
+  color: orange;
+}
 
 .thumb-bar img {
   display: block;
