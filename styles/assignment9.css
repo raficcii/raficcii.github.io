@@ -1,6 +1,7 @@
 h1 {
   font-family: helvetica, arial, sans-serif;
   text-align: center;
+  color: #3e7070
 }
 
 body {
@@ -26,9 +27,7 @@ body {
 
 button {
   border: 0;
-  background: rgba(150,150,150,0.6);
-  text-shadow: 1px 1px 1px white;
-  border: 1px solid #999;
+  background: #86B3B3;
   position: absolute;
   cursor: pointer;
   top: 2px;
