@@ -1,4 +1,22 @@
-button{
-    color:aquamarine;
-    text-decoration-color: blue;
+body{
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+}
+
+form{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input[type=button]{
+    background-color: aquamarine;
+    border: none;
+    color: black;
+    cursor: pointer;
+    font-size: 56px;
+    padding: 1em;
+}
+
+.output{
+    padding: 50%;
 }
