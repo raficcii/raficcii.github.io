@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rafael Basurto's Portfolio</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li id="navitems">
+                <a class="navbar-brand" href="index.html">
+                    <div class="logo-image">
+                        <img src="img/firma.png" class="img-fluid">
+                    </div>
+                </a></li>
+            <li id="navitems"><a href="about.html">About</a></li>
+            <li id="navitems"><a href="quince.html">Quinceañeras</a></li>
+            <li id="navitems"><a href="senior.html">Senior Portraits</a></li>
+            <li id="navitems"><a href="couples.html">Couples</a></li>
+        </ul>
+    </nav>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <h1>Couples Photography</h1>
+    <p>Click on the buttons to change the grid view.</p>
+    <div class="button">
+        <button class="btn" onclick="one()">Large Grid</button>
+        <button class="btn" onclick="four()">Regular Grid</button>
+    </div>
+    <div class="row">
+        <div class="column">
+          <img src="img/other1.jpg" style="width: 100%">
+          <img src="img/other2.jpg" style="width: 100%">
+          <img src="img/other3.jpg" style="width: 100%">
+        </div>
+        <div class="column">
+          <img src="img/other4.jpg" style="width: 100%">
+          <img src="img/other5.jpg" style="width: 100%">
+          <img src="img/other6.jpg" style="width: 100%">
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>

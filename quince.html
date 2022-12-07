@@ -3,32 +3,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Raf's Bio</title>
+    <title>Rafael Basurto's Portfolio</title>
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
     <nav>
         <ul>
-            <li id="home" style="font-weight: bolder"><a href="index.html">Rafael Basurto</a></li>
-            <li id="navitems"><a href="senior.html">Senior Portraits</a></li>
+            <li id="navitems">
+                <a class="navbar-brand" href="index.html">
+                    <div class="logo-image">
+                        <img src="img/firma.png" class="img-fluid">
+                    </div>
+                </a></li>
+            <li id="navitems"><a href="about.html">About</a></li>
             <li id="navitems"><a href="quince.html">Quinceañeras</a></li>
-            <li id="navitems"><a href="contact.html">Contact</a></li>
+            <li id="navitems"><a href="senior.html">Senior Portraits</a></li>
+            <li id="navitems"><a href="couples.html">Couples</a></li>
         </ul>
-    </nav> 
-    <h1>Quinceañeras</h1>
-    <div class="row">
-        <div class="column">
-            <img src="img/DSC_7062.JPG" alt="Quinceanera Photo 1" width="500" height="750"> 
-            <p>This photograph was taken during a photo session with a quinceañera. The photo was 
-                taken at a ranch near Platteville, CO and was a candidate to be the main entrance's greeting
-                photo at the event.
-            </p>
+    </nav>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <h1>Quinceañera Photography</h1>
+    <p>Click on the buttons to change the grid view.</p>
+    <div class="button">
+        <button class="btn" onclick="one()">Large Grid</button>
+        <button class="btn" onclick="four()">Regular Grid</button>
+    </div>
+        <div class="row">
+            <div class="column">
+                <img src="img/quince1.jpg" style="width: 100%">
+                <img src="img/quince2.jpg" style="width: 100%">
+                <img src="img/quince3.jpg" style="width: 100%">
+                <img src="img/quince7.jpg" style="width: 100%">
+            </div>
+            <div class="column">
+                <img src="img/quince4.jpg" style="width: 100%">
+                <img src="img/quince5.jpg" style="width: 100%">
+                <img src="img/quince6.jpg" style="width: 100%">
+            </div>
         </div>
-        <div class="column">
-            <img src="img/DSC_7250.JPG" alt="Quinceanera Photo 2" width="500" height="750">
-            <p>This photograph was taken after a ceremonial religious service that was held at a church in Estes Park, CO.
-            </p>
-        </div>
-    </div> 
+    <script src="js/main.js"></script> 
 </body>
-</html>
