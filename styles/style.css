@@ -130,10 +130,11 @@ li a:hover{
       width: calc(70% - 6px);
       margin-left: 5.5em;
       display:flex;
+      text-align: center;
   }
   li a{
     font-size:10px;
-    padding: 5px 5px;
+    padding: 5px 4px;
   }
   .logo-image{
     width: 100px;
@@ -142,6 +143,7 @@ li a:hover{
     overflow: hidden;
     margin-top: 15px;
     margin-left: 15px;
+    margin-right: -18px;
     display: flex;
   }
 }
